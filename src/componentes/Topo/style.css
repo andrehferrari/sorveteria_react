@@ -1,0 +1,32 @@
+#home_topo {
+    width: 100%;
+    background-color: rgb(234, 234, 141);
+}
+
+.limitar_sessao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao_topo {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.links:hover {
+    color: rgb(189, 143, 27);
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
