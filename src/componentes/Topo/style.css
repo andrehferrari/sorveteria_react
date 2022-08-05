@@ -1,6 +1,8 @@
 #home_topo {
+    position: fixed;
+    z-index: 1;
     width: 100%;
-    background-color: rgb(234, 234, 141);
+    background-color: rgb(249, 219, 121);
 }
 
 .limitar_sessao {
@@ -27,6 +29,6 @@
 }
 
 .logo {
-    width: 70px;
+    width: 100px;
     height: auto;
 }

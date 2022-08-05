@@ -1,0 +1,23 @@
+#home_rodape {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+#home_rodape img {
+    width: 100px;
+    height: auto;
+}
+
+#home_rodape .limitar_sessao {
+    padding: 90px 0px;
+}
+
+.elemento_rodape h2 {
+    margin-bottom: 10px;
+}
+
+.elemento_rodape_final {
+    padding: 20px 0px;
+    text-align: center;
+}

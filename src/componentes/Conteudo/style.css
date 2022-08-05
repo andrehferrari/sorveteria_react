@@ -1,0 +1,66 @@
+/* Sessão do topo da página */
+.banner {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/banner-home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: rgb(249, 219, 121);
+  top: 60px
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+/* Sessão do conteúdo */
+.sabores {
+  margin-top: 60px;
+}
+
+.sessao {
+  display: flex;
+  width: 100%;
+}
+
+.sessao img {
+  width: 50%;
+  object-fit: cover;
+  height: auto;
+}
+
+.sessao_texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 40px;
+}
+
+.sessao_texto h2 {
+  font-size: 35px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.sessao_texto span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.sessao_texto p {
+  padding: 0 100px;
+  line-height: 26px;
+  margin: 40px 0;
+}
