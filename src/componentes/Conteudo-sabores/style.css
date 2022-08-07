@@ -1,0 +1,69 @@
+.banner_sabores {
+    background-image: url('../../assets/banner-sabores.jpg');
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 60px
+}
+
+.sessao_principal_sabores {
+    max-width: 1024px;
+    margin: 150px auto;
+}
+
+.titulo_sabores h2 {
+    text-align: center;
+}
+
+.banner_sabores h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.galeria_sabores {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.card_sabores {
+    padding: 30px 10px;
+    text-align: center;
+    width: calc(33% - 15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.card_sabores img {
+    height: 220px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+@media (max-width: 725px) {
+    .galeria_sabores {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_sabores {
+        width: 90%;
+        padding: 10px 20px;
+    }
+}

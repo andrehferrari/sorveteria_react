@@ -4,10 +4,11 @@ import './style.css'
 
 function Topo() {
   return (
-    <div>
         <header id='home_topo'>
             <div className='limitar_sessao'>
+                <a href='/'>
                 <img className='logo' src={logo} />
+                </a>
                 <nav className='navegacao_topo'>
                     <a className='links' href='/'>Home</a>
                     <a className='links' href='Sabores'>Sabores</a>
@@ -15,7 +16,6 @@ function Topo() {
                 </nav>
             </div>
         </header>
-    </div>
   );
 }
 
