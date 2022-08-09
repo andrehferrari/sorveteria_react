@@ -39,7 +39,7 @@ $ git clone <https://github.com/andrehferrari/sorveteria_react.git>
 $ cd sorveteria_react
 
 # Instale as dependências
-$ npm
+$ npm i -y
 
 # Execute a aplicação em mode de desenvolvimento
 $ npm start
