@@ -5,7 +5,7 @@ import './style.css'
 function Topo() {
   return (
         <header id='home_topo'>
-            <div className='limitar_sessao'>
+            <div className='limitar_sessao_topo'>
                 <a href='/'>
                 <img className='logo' src={logo} />
                 </a>

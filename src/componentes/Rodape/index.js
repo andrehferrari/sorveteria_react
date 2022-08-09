@@ -6,7 +6,7 @@ function Rodape() {
   return (
     <footer id='home_rodape'>
 
-      <div className='limitar_sessao'>
+      <div className='limitar_sessao_rodape'>
         <img src={logo}/>
         <div className='elemento_rodape'>
           <h2>ENDEREÇO</h2>

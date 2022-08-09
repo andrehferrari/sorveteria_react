@@ -9,7 +9,7 @@
   background-image: url('../../assets/banner-home.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 700px 700px;
   background-color: rgb(249, 219, 121);
   top: 60px
 }
@@ -63,4 +63,51 @@
   padding: 0 100px;
   line-height: 26px;
   margin: 40px 0;
+}
+
+@media (max-width: 820px) {
+    .banner {
+      height: 70vh;
+      background-size: 400px 400px;
+    }
+
+    .banner h1 {
+      font-size: 50px;
+    }
+
+    .sessao {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .sessao img {
+      width: 100%;
+      background-position: center;
+    }
+    
+    .sessao_texto {
+      width: 100%;
+      padding: 30px 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    .banner {
+      height: 70vh;
+      background-size: 300px 300px;
+      padding-top: 50px;
+      top: 100px;
+    }
+
+    .banner h1 {
+      font-size: 40px;
+    }
+
+    .sessao_texto {
+      padding: 40px 10px;
+    }
+
+    .sessao_texto p {
+      padding: 0px 20px;
+    }
 }

@@ -5,14 +5,16 @@
     background-color: rgb(249, 219, 121);
 }
 
-.limitar_sessao {
+.limitar_sessao_topo {
+    max-width: 1024px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navegacao_topo {
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
@@ -31,4 +33,29 @@
 .logo {
     width: 100px;
     height: auto;
+}
+
+
+@media (max-width: 820px) {
+    .limitar_sessao_topo {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .links {
+        font-size: 25px;
+    }
+}
+
+
+
+@media (max-width: 540px) {  
+    .links {
+        font-size: 20px;
+    }
+
+    .navegacao_topo {
+        width: 80%;
+        justify-content: space-between;
+    }
 }
