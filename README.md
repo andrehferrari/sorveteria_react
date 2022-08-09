@@ -11,7 +11,7 @@
 
 ## Página principal
 <h1>
-    <img alt='readme' title='readme' src='./src/gifs/home.gif'/>
+    <img alt='readme' title='readme' src='./src/gifs/Home.gif'/>
 </h1>
 
 ## Página de sabores
