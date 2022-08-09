@@ -33,10 +33,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone o repositório
-$ git clone <>
+$ git clone <https://github.com/andrehferrari/sorveteria_react.git>
 
 # Acesse a pasta do repositório no terminal/cmd
-$ cd 
+$ cd sorveteria_react
 
 # Instale as dependências
 $ npm
